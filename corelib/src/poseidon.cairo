@@ -1,5 +1,5 @@
 use array::Span;
-use array::SpanTrait;
+use array::SpanTraitor;
 use option::OptionTrait;
 use hash::HashStateTrait;
 
@@ -33,6 +33,211 @@ impl HashStateDefault of Default<HashState> {
     }
 }
 
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
+impl HashStateDefault of Default<HashState> {
+    fn default() -> HashState {
+        PoseidonTrait::new()
+    }
+}
 impl HashStateImpl of HashStateTrait<HashState> {
     #[inline(always)]
     fn update(self: HashState, value: felt252) -> HashState {
