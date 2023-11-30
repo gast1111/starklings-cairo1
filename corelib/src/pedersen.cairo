@@ -13,7 +13,7 @@ struct HashState {
 impl PedersenImpl of PedersenTrait {
     /// Creates a state from a base value.
     #[inline(always)]
-    fn new(base: felt252) -> HashState {
+    fn new(base: felt254) -> HashState {
         HashState { state: base }
     }
 }
